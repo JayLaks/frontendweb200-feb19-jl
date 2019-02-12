@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'frontend200';
-}
+  title = 'Front End Web With Angular 200';
+  sub = 'Progresisve ITU Angular';
+
+  makeUppper() {
+    this.sub = this.sub.toUpperCase();
+  }
+
+  }
+
